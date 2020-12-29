@@ -7,7 +7,10 @@ body{
 .contact-icon:hover{
     color:white;
     font-size: 40px;
-}  
+} 
+h2.title{
+    color: black;
+} 
 .card{
     height: 80px;
     color: white;
@@ -18,11 +21,9 @@ body{
     transition:.3s all;
 }
 .card:hover{
+    cursor: pointer;
     box-shadow:0 8px 20px 0px rgba(0, 0, 0, 0.7);
     transform:scale(1.05);
-}
-.card-img-link{
-    display: inline;
 }
 .contact-icon{
     color: black;
@@ -30,13 +31,22 @@ body{
 .white-icon{
     color: white;
     margin: 3px;
-    display: none;
     font-size: 30px;
 }
-.card:hover .white-icon{
-    display: inline-block;
+.info-icon{
+    margin: 8px 0 0 10px;
+    margin-top:8px;
 }
-
+.info-link{
+    display:none;
+    color: rgb(19 194 234);
+}
+.info-link:hover{
+    opacity:0.9;
+}
+.card:hover .info-link{
+    display:inline-block;
+}
 /* We’ll apply the current CSS properties to all the children of the parent when the parent is in the hover state. */
 .prj-link-icon:hover > a {
     opacity: 0.5;
@@ -52,3 +62,35 @@ body{
 .row:hover > .column:hover{
     opacity: 1;
 }
+.hover-zoomin a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  .hover-zoomin img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  .hover-zoomin:hover img {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  .img-link{
+      border-radius: 5px;
+  }
+  @media (max-width: 410px) {  
+    .card-title{
+        font-size: 0.8em;
+    }
+    .white-icon{
+        font-size: 20px;
+    }
+  }
