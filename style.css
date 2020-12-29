@@ -1,16 +1,46 @@
 body{
     background-image: radial-gradient(circle at 67% 83%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 1%,transparent 1%, transparent 5%,transparent 5%, transparent 100%),radial-gradient(circle at 24% 80%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 27%,transparent 27%, transparent 63%,transparent 63%, transparent 100%),radial-gradient(circle at 23% 5%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 26%,transparent 26%, transparent 82%,transparent 82%, transparent 100%),radial-gradient(circle at 21% 11%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 35%,transparent 35%, transparent 45%,transparent 45%, transparent 100%),radial-gradient(circle at 10% 11%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 21%,transparent 21%, transparent 81%,transparent 81%, transparent 100%),radial-gradient(circle at 19% 61%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 20%,transparent 20%, transparent 61%,transparent 61%, transparent 100%),radial-gradient(circle at 13% 77%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 63%,transparent 63%, transparent 72%,transparent 72%, transparent 100%),radial-gradient(circle at 30% 93%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 33%,transparent 33%, transparent 82%,transparent 82%, transparent 100%),linear-gradient(134deg, rgb(19,194,234),rgb(103, 7, 215));
-}    
+}  
 .card{
     height: 80px;
     color: white;
     background-color:#221140;
-    transition: ease;
     margin: 1em 0;
     font-size: large;
     text-decoration: none;
-    
+    transition:.2s all;
 }
-.fab{
+.card:hover{
+    box-shadow:0 8px 20px 0px rgba(0, 0, 0, 0.7);
+    transform:scale(1.05);
+}
+.card-img-link{
+    display: inline;
+}
+.contact-icon{
     color: black;
+}
+.white-icon{
+    color: white;
+    margin: 3px;
+    display: none;
+    font-size: 30px;
+}
+.card:hover .white-icon{
+    display: inline-block;
+}
+
+/* We’ll apply the current CSS properties to all the children of the parent when the parent is in the hover state. */
+.prj-link-icon:hover > a {
+    opacity: 0.5;
+  }
+  /* Then when the parent is hovered and the individual child is hovered, we bump the opacity back up, giving the final effect we are looking for. */
+.prj-link-icon:hover > a:hover {
+    opacity: 1.0;
+}
+.row:hover > .column{
+    opacity: 0.8;
+}
+.row:hover > .column:hover{
+    opacity: 1;
 }
