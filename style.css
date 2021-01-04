@@ -21,7 +21,7 @@ h2.title{
     transition:.3s all;
 }
 .card:hover{
-    cursor: pointer;
+    /* cursor: pointer; */
     box-shadow:0 8px 20px 0px rgba(0, 0, 0, 0.7);
     transform:scale(1.05);
 }
@@ -34,8 +34,7 @@ h2.title{
     font-size: 30px;
 }
 .info-icon{
-    margin: 8px 0 0 10px;
-    margin-top:8px;
+    margin: 0 10px;
 }
 .info-link{
     display:none;
@@ -66,8 +65,8 @@ h2.title{
     display: block;
     position: relative;
     overflow: hidden;
-  }
-  .hover-zoomin img {
+}
+.hover-zoomin img {
     width: 100%;
     height: auto;
     -webkit-transition: all 0.5s ease-in-out;
@@ -75,22 +74,38 @@ h2.title{
     -o-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
-  }
-  .hover-zoomin:hover img {
+}
+.hover-zoomin:hover img {
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -o-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
-  }
-  .img-link{
-      border-radius: 5px;
-  }
-  @media (max-width: 410px) {  
+}
+.img-link{
+    border-radius: 5px;
+}
+.btn{
+    border-radius: 10rem;
+}
+@media (max-width: 410px) {
+    .contact-icon{
+        font-size: 22px;
+    }  
+    .card{
+        margin: 0.3em 0;
+        height: 60px;
+    }
+    .card-body{
+        padding: 0.3rem;
+    }
     .card-title{
-        font-size: 0.8em;
+        font-size: 1rem;
+    }
+    .info-icon{
+        margin: 0 1px;
     }
     .white-icon{
         font-size: 20px;
     }
-  }
+}
