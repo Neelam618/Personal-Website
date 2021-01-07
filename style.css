@@ -88,6 +88,23 @@ h2.title{
 .btn{
     border-radius: 10rem;
 }
+.viewSiteBtn{
+    color: #221140 ;
+    border-color: #22114036;
+}
+.viewSiteBtn:hover{
+    background-color: #221140 ;
+}
+.viewCodeBtn{
+    color: #46064e;
+    border-color: #4a0a6b2e;
+
+}
+.viewCodeBtn:hover{
+    background-color: #46064e;
+    color: white;
+}
+
 @media (max-width: 410px) {
     .contact-icon{
         font-size: 22px;
