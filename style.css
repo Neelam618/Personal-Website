@@ -11,6 +11,7 @@ h1.name{
 .badge{
     background-color: black;
     font-size: 13px;
+    padding: 0.5em 1em;
 }
 .contact-icon{
     color: black;
