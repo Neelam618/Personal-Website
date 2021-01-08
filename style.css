@@ -1,6 +1,12 @@
 body{
     background-image: radial-gradient(circle at 67% 83%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 1%,transparent 1%, transparent 5%,transparent 5%, transparent 100%),radial-gradient(circle at 24% 80%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 27%,transparent 27%, transparent 63%,transparent 63%, transparent 100%),radial-gradient(circle at 23% 5%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 26%,transparent 26%, transparent 82%,transparent 82%, transparent 100%),radial-gradient(circle at 21% 11%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 35%,transparent 35%, transparent 45%,transparent 45%, transparent 100%),radial-gradient(circle at 10% 11%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 21%,transparent 21%, transparent 81%,transparent 81%, transparent 100%),radial-gradient(circle at 19% 61%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 20%,transparent 20%, transparent 61%,transparent 61%, transparent 100%),radial-gradient(circle at 13% 77%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 63%,transparent 63%, transparent 72%,transparent 72%, transparent 100%),radial-gradient(circle at 30% 93%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 33%,transparent 33%, transparent 82%,transparent 82%, transparent 100%),linear-gradient(134deg, rgb(19,194,234),rgb(103, 7, 215));
 }
+.designation{
+    font-size: 20px;
+}
+.badge{
+    background-color: black;
+}
 .contact-icon{
     color: black;
     transition: 0.2s all;
@@ -23,14 +29,14 @@ h2.title{
 }
 .card:hover{
     box-shadow:0 8px 20px 0px rgba(0, 0, 0, 0.7);
-    transform:scale(1.05);
+    transform:scale(1.03);
 }
 .card-title-link{
     text-decoration: none;
     color: white;
 }
 .card:hover .card-title-link{
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(218, 178, 255);
     color: white;
 }
 .white-icon{
