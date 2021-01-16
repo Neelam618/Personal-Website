@@ -113,8 +113,12 @@ h2.title{
     -ms-transform: scale(1.2);
     transform: scale(1.2);
 }
-.img-link{
+.certificate-link{
     border-radius: 5px;
+}
+.certificate-card{
+    height: inherit;
+    border: none;
 }
 .btn{
     border-radius: 10rem;
