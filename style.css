@@ -124,7 +124,8 @@ h2.title{
     border-color: #22114036;
 }
 .viewSiteBtn:hover{
-    background-color: #221140 ;
+    background-color: #221140;
+    border: none;
 }
 .viewCodeBtn{
     color: #46064e;
@@ -134,6 +135,7 @@ h2.title{
 .viewCodeBtn:hover{
     background-color: #46064e;
     color: white;
+    border: none;
 }
 .modal-header{
     border-bottom: none;
