@@ -158,6 +158,12 @@ h2.title{
     text-decoration: none;
     border-bottom: 2px solid whitesmoke;
 }
+.about-container{
+    height: 88vh;
+}
+.des{
+    font-weight: 600;
+}
 @media (max-width: 467px) {
     h1.name{
         font-size: 1.8rem;
