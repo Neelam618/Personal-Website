@@ -68,13 +68,9 @@ h2.title{
     font-size: 30px;
 }
 .info-icon{
-    margin: 0 10px;
+    margin-left: 5px;
     display:none;
     color: rgb(19 194 234);
-}
-.info-link{
-    /* display:none;
-    color: rgb(19 194 234); */
 }
 .info-icon:hover{
     opacity:0.9;
