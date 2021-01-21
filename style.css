@@ -180,7 +180,7 @@ h2.title{
         font-size: 18px;
     }
     .contact-icon{
-        font-size: 22px;
+        font-size: 32px;
     }
     .contact-icon:hover{
         font-size: 25px;
@@ -200,7 +200,7 @@ h2.title{
         font-size: 1rem;
     }
     .info-icon{
-        margin: 0 1px;
+        margin-left: 4px;
     }
     .white-icon{
         font-size: 20px;
