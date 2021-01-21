@@ -145,8 +145,11 @@ h2.title{
 }
 .modal-header{
     border-bottom: none;
-    background-color: mediumslateblue;
+    background-color: #7d4ffe;
     color: white;
+}
+.modal-body{
+    padding: 2rem 1rem 0 1rem;
 }
 .modal-footer{
     border-top: none;
