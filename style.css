@@ -5,6 +5,9 @@ body{
 h1.name, .about-title{
     font-weight: 800;;
 }
+.name-para{
+    font-weight: 600!important;
+}
 .designation, .des{
     font-size: 20px;
 }
