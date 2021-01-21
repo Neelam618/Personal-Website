@@ -69,15 +69,17 @@ h2.title{
 }
 .info-icon{
     margin: 0 10px;
-}
-.info-link{
     display:none;
     color: rgb(19 194 234);
 }
-.info-link:hover{
+.info-link{
+    /* display:none;
+    color: rgb(19 194 234); */
+}
+.info-icon:hover{
     opacity:0.9;
 }
-.card:hover .info-link{
+.card:hover .info-icon{
     display:inline-block;
 }
 /* We’ll apply the current CSS properties to all the children of the parent when the parent is in the hover state. */
