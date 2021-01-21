@@ -191,4 +191,7 @@ h2.title{
     .white-icon{
         font-size: 20px;
     }
+    .certificate-card{
+        height: inherit;
+    }
 }
