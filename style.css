@@ -2,12 +2,26 @@ body{
     background-image: radial-gradient(circle at 67% 83%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 1%,transparent 1%, transparent 5%,transparent 5%, transparent 100%),radial-gradient(circle at 24% 80%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 27%,transparent 27%, transparent 63%,transparent 63%, transparent 100%),radial-gradient(circle at 23% 5%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 26%,transparent 26%, transparent 82%,transparent 82%, transparent 100%),radial-gradient(circle at 21% 11%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 35%,transparent 35%, transparent 45%,transparent 45%, transparent 100%),radial-gradient(circle at 10% 11%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 21%,transparent 21%, transparent 81%,transparent 81%, transparent 100%),radial-gradient(circle at 19% 61%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 20%,transparent 20%, transparent 61%,transparent 61%, transparent 100%),radial-gradient(circle at 13% 77%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 63%,transparent 63%, transparent 72%,transparent 72%, transparent 100%),radial-gradient(circle at 30% 93%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 33%,transparent 33%, transparent 82%,transparent 82%, transparent 100%),linear-gradient(134deg, rgb(19,194,234),rgb(103, 7, 215));
     color: black;
 }
+.navbar{
+    background: rgba(0,0,0,0.3);
+    padding: 1em;
+    border-radius: 8px;
+}
+.navi-link{
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.navi-link:hover{
+    color: white;
+    text-decoration: none;
+} 
 h1.name, .about-title{
     font-weight: 800;;
     font-size: 3rem;
 }
 .name-container{
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
     padding: 0 2em;
 }
@@ -35,15 +49,6 @@ h2.title{
     color: black;
     font-weight: 700;
 }
-.navi-link{
-    color: black;
-    font-weight: bold;
-    font-size: 1.1rem;
-}
-.navi-link:hover{
-    color: white;
-    text-decoration: none;
-} 
 .card{
     cursor: pointer;
     height: 80px;
@@ -175,7 +180,7 @@ h2.title{
 }
 .des{
     background: rgba(255, 255, 255, 0.5);
-    padding: 2em;
+    padding: 2em 3em;
     border-radius: 10px;
 }
 .email-text{
