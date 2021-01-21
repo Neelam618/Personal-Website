@@ -154,6 +154,10 @@ h2.title{
 .modal-footer{
     border-top: none;
 }
+.modal-dialog .close{
+    color: white;
+    text-shadow: none;
+}
 .email{
     color: white;
 }
