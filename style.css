@@ -4,7 +4,7 @@ body{
     position: relative;
 }
 .navbar{
-    background: #a500f9;
+    background: #8a3ac7;
     height: 60px;
     width: 100%;
     position: fixed;
@@ -33,14 +33,17 @@ h1.name, .about-title{
 .name-container{
     background: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
-    padding: 0 2em;
+    padding: 0 2em;   
     margin-top: 20vh;
 }
 .name-para{
     font-size: 1.5rem;
 }
-.designation, .des{
+.designation{
     font-size: 25px;
+}
+.about-des{
+    font-size: 22px;
 }
 .badge{
     background-color: black;
@@ -192,13 +195,16 @@ h2.title{
     text-decoration: none;
     border-bottom: 2px solid whitesmoke;
 }
-.des{
+.about-des{
     background: rgba(255, 255, 255, 0.5);
     padding: 2em 3em;
     border-radius: 10px;
 }
 .email-text{
     font-size: large;
+}
+.about-container{
+    margin-top: 20vh;
 }
 
 /*................ Media Query...................... */
