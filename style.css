@@ -37,7 +37,7 @@ h1.name, .about-title{
 }
 .badge{
     background-color: black;
-    font-size: 20px;
+    font-size: 17px;
     padding: 0.5em 1em;
     margin-bottom: 10px;
 }
@@ -193,6 +193,8 @@ h2.title{
 .email-text{
     font-size: large;
 }
+
+/*................ Media Query...................... */
 @media (max-width: 467px) {
     h1.name{
         font-size: 1.8rem;
@@ -230,5 +232,8 @@ h2.title{
     }
     .name-para{
         font-size: 1rem;
+    }
+    .badge{
+        font-size: 15px;
     }
 }
