@@ -251,4 +251,7 @@ h2.title{
         font-size: 18px;
         padding: 1em;
     }
+    .name-container{
+        margin-top: 15vh;
+    }
 }
