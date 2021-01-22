@@ -67,12 +67,12 @@ h2.title{
     box-shadow:0 8px 20px 0px rgba(0, 0, 0, 0.7);
     transform:scale(1.03);
 }
-.card-title-link{
+.card-title-modal-link{
     text-decoration: none;
     color: white;
     font-weight: 500;
 }
-.card:hover .card-title-link{
+.card:hover .card-title-modal-link{
     border-bottom: 2px solid rgb(218, 178, 255);
     color: white;
     text-decoration: none;
