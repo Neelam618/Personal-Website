@@ -247,4 +247,8 @@ h2.title{
     .badge{
         font-size: 15px;
     }
+    .about-des{
+        font-size: 18px;
+        padding: 1em;
+    }
 }
