@@ -10,7 +10,7 @@ body{
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 9999;
+    z-index: 1;
     box-shadow: -1px 2px 12px 2px #295fd6;
 }
 .navi-link{
@@ -151,12 +151,12 @@ h2.title{
     border-radius: 8px;
 }
 .viewSiteBtn{
-    background-color: #b23cfd;
+    background-color: #8a3ac7;
     color: white ;
     border:none
 }
 .viewSiteBtn:hover{
-    background-color: #a316fd;
+    background-color: #7d27be;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
 }
 .viewCodeBtn{
@@ -167,11 +167,10 @@ h2.title{
 .viewCodeBtn:hover{
     background-color: #0e6ed4;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
-
 }
 .modal-header{
     border-bottom: none;
-    background-color: #7d4ffe;
+    background-color: #542bc3;
     color: white;
 }
 .modal-title{
