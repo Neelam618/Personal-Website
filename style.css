@@ -21,8 +21,10 @@ body{
     text-align: center;
 }
 .navi-link:hover{
-    color: rgb(219, 202, 240);
     text-decoration: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
 } 
 h1.name, .about-title{
     font-weight: 800;;
