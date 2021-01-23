@@ -207,7 +207,7 @@ h2.title{
 }
 /*................ Media Query...................... */
 @media (max-width: 467px) {
-    h1.name{
+    h1.name, .about-title{
         font-size: 1.8rem;
     }
     .designation{
@@ -248,13 +248,13 @@ h2.title{
         font-size: 15px;
     }
     .about-des{
-        font-size: 18px;
+        font-size: 17px;
         padding: 1em;
     }
     .name-container{
         margin-top: 15vh;
     }
     .about-container{
-        margin-top: 15vh;
+        margin-top: 10vh;
     }
 }
