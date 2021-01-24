@@ -1,8 +1,9 @@
 body{
     background-image: radial-gradient(circle at 67% 83%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 1%,transparent 1%, transparent 5%,transparent 5%, transparent 100%),radial-gradient(circle at 24% 80%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 27%,transparent 27%, transparent 63%,transparent 63%, transparent 100%),radial-gradient(circle at 23% 5%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 26%,transparent 26%, transparent 82%,transparent 82%, transparent 100%),radial-gradient(circle at 21% 11%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 35%,transparent 35%, transparent 45%,transparent 45%, transparent 100%),radial-gradient(circle at 10% 11%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 21%,transparent 21%, transparent 81%,transparent 81%, transparent 100%),radial-gradient(circle at 19% 61%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 20%,transparent 20%, transparent 61%,transparent 61%, transparent 100%),radial-gradient(circle at 13% 77%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 63%,transparent 63%, transparent 72%,transparent 72%, transparent 100%),radial-gradient(circle at 30% 93%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 33%,transparent 33%, transparent 82%,transparent 82%, transparent 100%),linear-gradient(134deg, rgb(19,194,234),rgb(103, 7, 215));
-    color: black;
-    position: relative;
 }
+/* ==========================================================================
+    Navbar section
+   ========================================================================== */
 .navbar{
     background: #8a3ac7;
     height: 60px;
@@ -25,8 +26,12 @@ body{
     border: none;
     border-bottom: 2px solid white;
     color: white;
-} 
+}
+/* ==========================================================================
+   Header section
+   ========================================================================== */
 h1.name, .about-title{
+    color: black;
     font-weight: 800;;
     font-size: 3rem;
 }
@@ -45,23 +50,26 @@ h1.name, .about-title{
 .about-des{
     font-size: 22px;
 }
-.badge{
+.skills-badge{
     background-color: black;
     font-size: 17px;
     padding: 0.5em 1em;
     margin-bottom: 10px;
 }
-.contact-icon{
-    color: black;
-    transition: 0.2s all;
-}
-.contact-icon:hover{
-    color:white;
-    font-size: 35px;
-} 
+/* ==========================================================================
+   Main content
+   ========================================================================== */
 h2.title{
     color: white;
     font-weight: 700;
+}
+.about-container{
+    margin-top: 20vh;
+}
+.about-des{
+    background: rgba(255, 255, 255, 0.5);
+    padding: 2em 3em;
+    border-radius: 10px;
 }
 .card{
     cursor: pointer;
@@ -86,9 +94,8 @@ h2.title{
     border-bottom: 2px solid rgb(218, 178, 255);
     color: white;
     text-decoration: none;
-
 }
-.white-icon{
+.card-icon{
     color: white;
     margin: 3px;
     font-size: 30px;
@@ -110,7 +117,7 @@ h2.title{
     transition: .3s all ease-in-out;
   }
   /* Then when the parent is hovered and the individual child is hovered, we bump the opacity back up, giving the final effect we are looking for. */
-.prj-link-icon:hover > a:hover {
+.prj-link-icon:hover > a:hover{
     opacity: 1.0;
 }
 .row:hover > .column{
@@ -119,12 +126,14 @@ h2.title{
 .row:hover > .column:hover{
     opacity: 1;
 }
-.hover-zoomin a {
+/* Certificate section
+   ========================================================================== */
+.hover-zoomin .certificate-link{
     display: block;
     position: relative;
     overflow: hidden;
 }
-.hover-zoomin img {
+.hover-zoomin .certificate-img{
     width: 100%;
     height: auto;
     -webkit-transition: all 0.3s ease-in-out;
@@ -133,7 +142,7 @@ h2.title{
     -ms-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
-.hover-zoomin:hover img {
+.hover-zoomin:hover .certificate-img {
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -o-transform: scale(1.2);
@@ -147,27 +156,10 @@ h2.title{
     height: inherit;
     border: none;
 }
-.btn{
-    border-radius: 8px;
-}
-.viewSiteBtn{
-    background-color: #8a3ac7;
-    color: white ;
-    border:none
-}
-.viewSiteBtn:hover{
-    background-color: #7d27be;
-    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
-}
-.viewCodeBtn{
-    background-color: #007bff;
-    color: white;
-    border: none;
-}
-.viewCodeBtn:hover{
-    background-color: #0e6ed4;
-    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
-}
+/* ==========================================================================
+   Modal Section
+   ========================================================================== */
+/* Modal Header */
 .modal-header{
     border-bottom: none;
     background-color: #542bc3;
@@ -176,51 +168,91 @@ h2.title{
 .modal-title{
     font-weight: 700;
 }
-.modal-body{
-    padding: 2rem 1rem 0 1rem;
-}
-.modal-footer{
-    border-top: none;
-}
 .modal-dialog .close{
     color: white;
     text-shadow: none;
 }
-.email{
+/* Modal Body */
+.modal-body{
+    padding: 2rem 1rem 0 1rem;
+}
+/* Modal Footer */
+.modal-footer .modal-btn{
+    border-radius: 8px;
+}
+.modal-footer .viewSiteBtn{
+    background-color: #8a3ac7;
+    color: white ;
+    border:none
+}
+.modal-footer .viewSiteBtn:hover{
+    background-color: #7d27be;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.modal-footer .viewCodeBtn{
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+.modal-footer .viewCodeBtn:hover{
+    background-color: #0e6ed4;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.modal-footer{
+    border-top: none;
+}
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+.email-link{
     color: white;
 }
-.email:hover{
+.email-link:hover{
     color: whitesmoke;
     text-decoration: none;
     border-bottom: 2px solid whitesmoke;
 }
-.about-des{
-    background: rgba(255, 255, 255, 0.5);
-    padding: 2em 3em;
-    border-radius: 10px;
-}
 .email-text{
     font-size: large;
 }
-.about-container{
-    margin-top: 20vh;
+.social-icons{
+    color: black;
+    transition: 0.2s all;
 }
-/*................ Media Query...................... */
+.social-icons:hover{
+    color:white;
+    font-size: 35px;
+}
+/* ==========================================================================
+   Media Query
+========================================================================== */
 @media (max-width: 467px) {
+    /* Header section */
     h1.name, .about-title{
         font-size: 1.8rem;
     }
     .designation{
         font-size: 18px;
     }
-    .contact-icon{
-        font-size: 32px;
-    }
-    .contact-icon:hover{
-        font-size: 25px;
-    }
+    /* Main content */
     h2.title{
         font-size: 1.4rem;
+    }
+    .name-para{
+        font-size: 1rem;
+    }
+    .skills-badge{
+        font-size: 15px;
+    }
+    .about-des{
+        font-size: 17px;
+        padding: 1em;
+    }
+    .name-container{
+        margin-top: 15vh;
+    }
+    .about-container{
+        margin-top: 10vh;
     }  
     .card{
         margin: 0.5em 0;
@@ -235,26 +267,17 @@ h2.title{
     .info-icon{
         margin-left: 4px;
     }
-    .white-icon{
+    .card-icon{
         font-size: 20px;
     }
+    /* certificate section */
     .certificate-card{
         height: inherit;
     }
-    .name-para{
-        font-size: 1rem;
+    .social-icons{
+        font-size: 32px;
     }
-    .badge{
-        font-size: 15px;
-    }
-    .about-des{
-        font-size: 17px;
-        padding: 1em;
-    }
-    .name-container{
-        margin-top: 15vh;
-    }
-    .about-container{
-        margin-top: 10vh;
+    .social-icons:hover{
+        font-size: 25px;
     }
 }
