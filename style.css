@@ -5,7 +5,7 @@ body{
     Navbar section
    ========================================================================== */
 .navbar{
-    background: #8a3ac7;
+    background: #542bc3;
     height: 60px;
     width: 100%;
     position: fixed;
@@ -70,6 +70,7 @@ h2.title{
     background: rgba(255, 255, 255, 0.5);
     padding: 2em 3em;
     border-radius: 10px;
+    margin-bottom: 6em;
 }
 .card{
     cursor: pointer;
@@ -204,6 +205,11 @@ h2.title{
 /* ==========================================================================
    Footer
    ========================================================================== */
+footer{
+    background-color: #542bc3;
+    box-shadow:  2px 16px 3px #293040;
+    margin-top: 4em;
+}
 .email-link{
     color: white;
 }
