@@ -221,14 +221,13 @@ footer{
 }
 .email-text{
     font-size: large;
-    color: black;
+    color: #b7edfd;
 }
 .social-icons{
-    color: black;
+    color: white;
     transition: 0.2s all;
 }
 .social-icons:hover{
-    color:white;
     font-size: 35px;
 }
 /* ==========================================================================
