@@ -47,12 +47,14 @@ h1.name, .about-title{
 }
 .designation{
     font-size: 25px;
+    color: black;
 }
 .about-des{
     font-size: 22px;
 }
 .skills-badge{
-    background-color: black;
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
     font-size: 17px;
     padding: 0.5em 1em;
     margin: 0 0.3em 10px 0.3em;
