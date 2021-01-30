@@ -37,13 +37,16 @@ h1.name, .about-title{
     font-size: 3rem;
 }
 .name-container{
-    background: rgba(255, 255, 255, 0.5);
+    background: white;
+    background:linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    backdrop-filter: blur(1rem);
     border-radius: 10px;
     padding: 0 2em;   
     margin-top: 20vh;
 }
 .name-para{
     font-size: 1.5rem;
+    color: black;
 }
 .designation{
     font-size: 25px;
